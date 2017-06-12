@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134FE4A4879C685D604E76DB /* Pods_EtsyShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C328FE4A25620E8B5CF848A7 /* Pods_EtsyShop.framework */; };
+		6455AF2C9209F6DCBF388D2A /* Pods_EtsyShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338F3748F70005BD3D249B5D /* Pods_EtsyShopTests.framework */; };
 		AE03DDAB1EEABC5A007891D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03DDAA1EEABC5A007891D6 /* AppDelegate.swift */; };
-		AE03DDAD1EEABC5A007891D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03DDAC1EEABC5A007891D6 /* ViewController.swift */; };
 		AE03DDB01EEABC5A007891D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE03DDAE1EEABC5A007891D6 /* Main.storyboard */; };
 		AE03DDB31EEABC5A007891D6 /* EtsyShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE03DDB11EEABC5A007891D6 /* EtsyShop.xcdatamodeld */; };
 		AE03DDB51EEABC5A007891D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE03DDB41EEABC5A007891D6 /* Assets.xcassets */; };
 		AE03DDB81EEABC5A007891D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE03DDB61EEABC5A007891D6 /* LaunchScreen.storyboard */; };
 		AE03DDC31EEABC5A007891D6 /* EtsyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03DDC21EEABC5A007891D6 /* EtsyShopTests.swift */; };
 		AE03DDCE1EEABC5A007891D6 /* EtsyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE03DDCD1EEABC5A007891D6 /* EtsyShopUITests.swift */; };
+		AEF316A91EEACB470097CEA2 /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316A81EEACB470097CEA2 /* CategoriesController.swift */; };
+		AEF316AC1EEACBC60097CEA2 /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316AB1EEACBC60097CEA2 /* CartController.swift */; };
+		AEF316AE1EEACC740097CEA2 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316AD1EEACC740097CEA2 /* CategoriesCell.swift */; };
+		AEF316B11EEACD960097CEA2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316B01EEACD960097CEA2 /* Category.swift */; };
+		AEF316B31EEAE5D60097CEA2 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316B21EEAE5D60097CEA2 /* CartCell.swift */; };
+		AEF316B51EEAE7A10097CEA2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF316B41EEAE7A10097CEA2 /* Product.swift */; };
+		B8DCF4F52FE80510FD1751AF /* Pods_EtsyShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1B4C953A657E775415730D /* Pods_EtsyShopUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047556C048893AD4E92A734B /* Pods-EtsyShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShopUITests/Pods-EtsyShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		298A9F8C2DC41D6242432DF0 /* Pods-EtsyShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShopTests/Pods-EtsyShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D80C9353D4AEF03F916686D /* Pods-EtsyShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShop/Pods-EtsyShop.debug.xcconfig"; sourceTree = "<group>"; };
+		338F3748F70005BD3D249B5D /* Pods_EtsyShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtsyShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D52765534D57C3E42E8117 /* Pods-EtsyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShop/Pods-EtsyShop.release.xcconfig"; sourceTree = "<group>"; };
+		9D2EFB88DF4BA90985B9BF17 /* Pods-EtsyShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShopTests/Pods-EtsyShopTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE03DDA71EEABC5A007891D6 /* EtsyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtsyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE03DDAA1EEABC5A007891D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE03DDAC1EEABC5A007891D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE03DDAF1EEABC5A007891D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE03DDB21EEABC5A007891D6 /* EtsyShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EtsyShop.xcdatamodel; sourceTree = "<group>"; };
 		AE03DDB41EEABC5A007891D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		AE03DDC91EEABC5A007891D6 /* EtsyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtsyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE03DDCD1EEABC5A007891D6 /* EtsyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtsyShopUITests.swift; sourceTree = "<group>"; };
 		AE03DDCF1EEABC5A007891D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF316A81EEACB470097CEA2 /* CategoriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		AEF316AB1EEACBC60097CEA2 /* CartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
+		AEF316AD1EEACC740097CEA2 /* CategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		AEF316B01EEACD960097CEA2 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AEF316B21EEAE5D60097CEA2 /* CartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		AEF316B41EEAE7A10097CEA2 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BA1B4C953A657E775415730D /* Pods_EtsyShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtsyShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328FE4A25620E8B5CF848A7 /* Pods_EtsyShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtsyShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA441B635DD97F7829D12CE /* Pods-EtsyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtsyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtsyShopUITests/Pods-EtsyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134FE4A4879C685D604E76DB /* Pods_EtsyShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6455AF2C9209F6DCBF388D2A /* Pods_EtsyShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DCF4F52FE80510FD1751AF /* Pods_EtsyShopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FC722349884539D66A114CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D80C9353D4AEF03F916686D /* Pods-EtsyShop.debug.xcconfig */,
+				71D52765534D57C3E42E8117 /* Pods-EtsyShop.release.xcconfig */,
+				298A9F8C2DC41D6242432DF0 /* Pods-EtsyShopTests.debug.xcconfig */,
+				9D2EFB88DF4BA90985B9BF17 /* Pods-EtsyShopTests.release.xcconfig */,
+				EEA441B635DD97F7829D12CE /* Pods-EtsyShopUITests.debug.xcconfig */,
+				047556C048893AD4E92A734B /* Pods-EtsyShopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C6C19BF67C47F825AAFC023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C328FE4A25620E8B5CF848A7 /* Pods_EtsyShop.framework */,
+				338F3748F70005BD3D249B5D /* Pods_EtsyShopTests.framework */,
+				BA1B4C953A657E775415730D /* Pods_EtsyShopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE03DD9E1EEABC5A007891D6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				AE03DDC11EEABC5A007891D6 /* EtsyShopTests */,
 				AE03DDCC1EEABC5A007891D6 /* EtsyShopUITests */,
 				AE03DDA81EEABC5A007891D6 /* Products */,
+				5FC722349884539D66A114CC /* Pods */,
+				9C6C19BF67C47F825AAFC023 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				AE03DDAA1EEABC5A007891D6 /* AppDelegate.swift */,
-				AE03DDAC1EEABC5A007891D6 /* ViewController.swift */,
 				AE03DDAE1EEABC5A007891D6 /* Main.storyboard */,
+				AEF316AF1EEACCBC0097CEA2 /* Models */,
+				AEF316AA1EEACB960097CEA2 /* Controllers */,
 				AE03DDB41EEABC5A007891D6 /* Assets.xcassets */,
 				AE03DDB61EEABC5A007891D6 /* LaunchScreen.storyboard */,
 				AE03DDB91EEABC5A007891D6 /* Info.plist */,
@@ -128,6 +179,26 @@
 			path = EtsyShopUITests;
 			sourceTree = "<group>";
 		};
+		AEF316AA1EEACB960097CEA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEF316A81EEACB470097CEA2 /* CategoriesController.swift */,
+				AEF316AB1EEACBC60097CEA2 /* CartController.swift */,
+				AEF316AD1EEACC740097CEA2 /* CategoriesCell.swift */,
+				AEF316B21EEAE5D60097CEA2 /* CartCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AEF316AF1EEACCBC0097CEA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEF316B01EEACD960097CEA2 /* Category.swift */,
+				AEF316B41EEAE7A10097CEA2 /* Product.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE03DDD21EEABC5A007891D6 /* Build configuration list for PBXNativeTarget "EtsyShop" */;
 			buildPhases = (
+				1E740C45FB3EBEB295F430B3 /* [CP] Check Pods Manifest.lock */,
 				AE03DDA31EEABC5A007891D6 /* Sources */,
 				AE03DDA41EEABC5A007891D6 /* Frameworks */,
 				AE03DDA51EEABC5A007891D6 /* Resources */,
+				CD6203CBF0A017CA14FE91BE /* [CP] Embed Pods Frameworks */,
+				6453BF193B0F76835E61045D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE03DDD51EEABC5A007891D6 /* Build configuration list for PBXNativeTarget "EtsyShopTests" */;
 			buildPhases = (
+				0B5B2F52716D8E614AB4F57E /* [CP] Check Pods Manifest.lock */,
 				AE03DDBA1EEABC5A007891D6 /* Sources */,
 				AE03DDBB1EEABC5A007891D6 /* Frameworks */,
 				AE03DDBC1EEABC5A007891D6 /* Resources */,
+				A554F47761E6D31F498826E0 /* [CP] Embed Pods Frameworks */,
+				2683CA4700384D93C5C703D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE03DDD81EEABC5A007891D6 /* Build configuration list for PBXNativeTarget "EtsyShopUITests" */;
 			buildPhases = (
+				EDEC6969E588CAFD531F25CB /* [CP] Check Pods Manifest.lock */,
 				AE03DDC51EEABC5A007891D6 /* Sources */,
 				AE03DDC61EEABC5A007891D6 /* Frameworks */,
 				AE03DDC71EEABC5A007891D6 /* Resources */,
+				14A318455A23032C25EEEECA /* [CP] Embed Pods Frameworks */,
+				25BA534E3C0FFC46FEF8C5D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +340,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B5B2F52716D8E614AB4F57E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14A318455A23032C25EEEECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShopUITests/Pods-EtsyShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E740C45FB3EBEB295F430B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25BA534E3C0FFC46FEF8C5D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShopUITests/Pods-EtsyShopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2683CA4700384D93C5C703D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShopTests/Pods-EtsyShopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6453BF193B0F76835E61045D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShop/Pods-EtsyShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A554F47761E6D31F498826E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShopTests/Pods-EtsyShopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6203CBF0A017CA14FE91BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtsyShop/Pods-EtsyShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDEC6969E588CAFD531F25CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE03DDA31EEABC5A007891D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF316AE1EEACC740097CEA2 /* CategoriesCell.swift in Sources */,
+				AEF316B51EEAE7A10097CEA2 /* Product.swift in Sources */,
+				AEF316B31EEAE5D60097CEA2 /* CartCell.swift in Sources */,
+				AEF316A91EEACB470097CEA2 /* CategoriesController.swift in Sources */,
+				AEF316AC1EEACBC60097CEA2 /* CartController.swift in Sources */,
 				AE03DDB31EEABC5A007891D6 /* EtsyShop.xcdatamodeld in Sources */,
-				AE03DDAD1EEABC5A007891D6 /* ViewController.swift in Sources */,
 				AE03DDAB1EEABC5A007891D6 /* AppDelegate.swift in Sources */,
+				AEF316B11EEACD960097CEA2 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +642,7 @@
 		};
 		AE03DDD31EEABC5A007891D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D80C9353D4AEF03F916686D /* Pods-EtsyShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJ5S8AVJFY;
@@ -432,6 +656,7 @@
 		};
 		AE03DDD41EEABC5A007891D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D52765534D57C3E42E8117 /* Pods-EtsyShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJ5S8AVJFY;
@@ -445,6 +670,7 @@
 		};
 		AE03DDD61EEABC5A007891D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298A9F8C2DC41D6242432DF0 /* Pods-EtsyShopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +686,7 @@
 		};
 		AE03DDD71EEABC5A007891D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2EFB88DF4BA90985B9BF17 /* Pods-EtsyShopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +702,7 @@
 		};
 		AE03DDD91EEABC5A007891D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA441B635DD97F7829D12CE /* Pods-EtsyShopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XJ5S8AVJFY;
@@ -489,6 +717,7 @@
 		};
 		AE03DDDA1EEABC5A007891D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047556C048893AD4E92A734B /* Pods-EtsyShopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XJ5S8AVJFY;
@@ -520,6 +749,7 @@
 				AE03DDD41EEABC5A007891D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE03DDD51EEABC5A007891D6 /* Build configuration list for PBXNativeTarget "EtsyShopTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +758,7 @@
 				AE03DDD71EEABC5A007891D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE03DDD81EEABC5A007891D6 /* Build configuration list for PBXNativeTarget "EtsyShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +767,7 @@
 				AE03DDDA1EEABC5A007891D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
